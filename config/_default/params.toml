@@ -1,0 +1,46 @@
+description = "fotografía analógica, haïk & lise"
+
+# resize options for dynamic resolution, please refer to https://gohugo.io/content-management/image-processing/#image-processing-options
+loResOpt = "800x webp Lanczos q60"
+hiResOpt = "2500x webp Lanczos q75"
+
+# auto-orient gallery images from EXIF orientation before resizing; only false disables it
+autoOrient = true
+
+# labels (text shown on the UI)
+[labels]
+next = "siguiente"
+prev = "precedente"
+close = "cerrar"
+threshold = "frecuencia"
+error = "mirar del otro lado"
+loading = "cargando..."
+
+# --- OPTIONAL -----------------------------------------------------------------
+
+# whether to use favicon resource links
+# generate these with https://realfavicongenerator.net
+favicon = true
+# modern SVG favicon to use in place of older style .png and .ico files
+# svgFavicon = "/dot.svg"
+# # fallback png favicon for unsupported browsers
+# svgFaviconFallback = "/dot.png"
+
+# site verification code for Google/Bing/Yandex/Pinterest/Baidu
+[verification]
+google = ""
+bing = ""
+yandex = ""
+pinterest = ""
+baidu = ""
+so = ""
+sogou = ""
+
+[analytics]
+enable = true
+
+[analytics.umami]
+data_website_id = "8ab88f4b-945b-4a53-9125-4b56c2e8832e"
+src = "https://cloud.umami.is/script.js"
+# data_host_url = ""
+# data_domains = "fotofragments.com"

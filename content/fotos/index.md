@@ -1,0 +1,13 @@
+---
+type: _default
+layout: single
+url: /
+menu:
+  main:
+    weight: 1
+    identifier: fotos
+    title: fotos
+unifiedAlt: "© Haïk Findji & Lise Derule"
+build:
+  publishResources: false
+---

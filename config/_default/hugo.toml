@@ -1,0 +1,9 @@
+timeout = "1200s"
+baseURL = 'https://fotofragments.com/'
+title = 'fragments'
+disableKinds = ["section", "taxonomy", "term", "home"]
+enableRobotsTXT = true
+
+[module]
+[[module.imports]]
+path = "github.com/Sped0n/bridget/v2"
